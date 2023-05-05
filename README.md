@@ -77,9 +77,7 @@ dependencies {
 }
 
 ## Notes
-
-  The Music Festival data showing in the list. Based the band record lable list, below it will display list of all bands under their record label management.
-  And below that it will display which festival they have attended. It has sorted alphabetically and its shows even if record label empty.
+  App will request music festival api data. If the api data is empty string and failure, it will show popup error dialog with try again messgae and too many request message. If user click the ok , again app will request api call and if it success, the Music Festival data showing in the list. Based the band record lable list, below it will display list of all bands under their record label management.And below that it will display which festival they have attended. It has sorted alphabetically and its shows even if record label empty. 
   
  
 

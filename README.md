@@ -9,6 +9,7 @@
 
 ## Gradle
 
+
 plugins {
     id 'com.android.application' version '7.2.1' apply false
     id 'com.android.library' version '7.2.1' apply false
@@ -41,7 +42,6 @@ dependencies {
 
     // Saved state module for ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0")
-   // kapt "androidx.lifecycle:lifecycle-compiler:2.5.1"
     //ViewModels delegation extensions for activity
     implementation "androidx.activity:activity-ktx:1.4.0"
     // alternately - if using Java8, use the following instead of lifecycle-compiler
@@ -87,4 +87,4 @@ dependencies {
 - API: Festival API
 - Arthitecture: MVVM
 - Programming Language: Kotlin
-- Third Party Libraries: Retrofit, Gson,Mock.t
+- Third Party Libraries: Retrofit, Gson,Mock
